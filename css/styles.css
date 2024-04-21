@@ -558,3 +558,66 @@
   font-size: 50px;
   color: black;
 }
+
+/* Explore projects section */
+.explore-projects-content {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore-projects-content p {
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #eec044;
+  padding-bottom: 0;
+}
+.explore-projects-content h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 57.6px;
+  text-align: center;
+  color: #1f1e17;
+}
+.explore-projects-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.explore-projects-cards div {
+  background-image: url(../assets/explore-projects-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 362px;
+  height: 558px;
+  display: flex;
+  align-items: flex-end;
+}
+#explore-card2 {
+  background-image: url(../assets/explore-projects-2.png);
+}
+#explore-card3 {
+  background-image: url(../assets/explore-projects-3.png);
+}
+#explore-card4 {
+  background-image: url(../assets/explore-projects-4.png);
+}
+.explore-projects-cards div h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 100px;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+/* Testimonial section */
