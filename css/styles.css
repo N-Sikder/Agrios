@@ -436,7 +436,15 @@
   background-size: cover;
   position: relative;
 }
-
+.what-we-offer-4div2 {
+  background-image: url(../assets/what-we-offer2.png);
+}
+.what-we-offer-4div3 {
+  background-image: url(../assets/what-we-offer3.png);
+}
+.what-we-offer-4div4 {
+  background-image: url(../assets/what-we-offer4.png);
+}
 .what-we-offer-4div-content-item img {
   position: absolute;
   content: "";
@@ -537,9 +545,15 @@
   left: 1350px;
   transition: all 0.3s;
 }
-.aggriculture-matters-content div:hover {
+.aggriculture-matters-content a {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.aggriculture-matters-content a:hover {
   transform: scale(1.05);
 }
+
 .aggriculture-matters-content div i {
   font-size: 50px;
   color: black;
