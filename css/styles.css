@@ -596,7 +596,6 @@
   margin-top: 2rem;
 }
 .explore-projects-cards div {
-  background-image: url(../assets/explore-projects-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -605,6 +604,9 @@
   height: 558px;
   display: flex;
   align-items: flex-end;
+}
+#explore-card1 {
+  background-image: url(../assets/explore-projects-1.png);
 }
 #explore-card2 {
   background-image: url(../assets/explore-projects-2.png);
