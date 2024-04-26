@@ -721,3 +721,110 @@
   top: 100px;
   left: 40px;
 }
+
+/* Benefits Section */
+.benefits {
+  padding: 6rem 0;
+}
+.benefits-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.benefits-image {
+  background-image: url(../assets/agrios-benefits.png);
+  background-position: center;
+  background-size: cover;
+  height: 734px;
+  width: 100%;
+  position: relative;
+}
+.benefits-image-box {
+  position: absolute;
+  content: "";
+  background-color: #eec044;
+  width: 306px;
+  height: 168px;
+  top: 168px;
+  left: 309px;
+  border-radius: 10px 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.benefits-image-box span {
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+  display: inline-block;
+  height: 108px;
+  width: 125px;
+  margin-right: 2rem;
+}
+.benefits-image-triangle {
+  position: absolute;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid #eec044;
+  top: 335px;
+  left: 585px;
+}
+.benefits-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.benefits-info h6 {
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #eec044;
+}
+.benefits-info h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 57.6px;
+}
+.benefits-info p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #878680;
+  margin-bottom: 2rem;
+}
+.benefit-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.benefit-1 i {
+  font-size: 2rem;
+}
+.i-1 {
+  color: #4baf47;
+}
+.i-2 {
+  color: #c5ce38;
+}
+.i-3 {
+  color: #eec044;
+}
+.benefit-1-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.benefit-1-info h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 33.6px;
+}
+.benefit-1-info p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+}
